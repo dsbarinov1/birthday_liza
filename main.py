@@ -87,7 +87,7 @@ def upload_audio():
     st.divider()
     r"""##### Ты наполняешь мою жизнь красками и смыслом!"""
     st.write("TumaniYO, Miyagi - Наполняй")
-    audio_file = open("media/TumaniYO, Miyagi - Наполняй.mp3", 'rb')  # Локальный файл аудио
+    audio_file = open("media/TumaniYO, Miyagi - 1.mp3", 'rb')  # Локальный файл аудио
     audio_bytes = audio_file.read()
     st.audio(audio_bytes, format='audio/mp3')
     st.markdown("[Ссылка на песню в Я.Музыке 😉](https://music.yandex.ru/album/31348491/track/126278715)")
